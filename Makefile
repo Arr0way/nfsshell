@@ -17,9 +17,9 @@
 #       CFLAGS=-DREADLINE -I/usr/local/include
 #	LIBS=-L/usr/local/lib -lreadline -lhistory -lncurses
 #
-# For GNU readline support you need to add
-#	CFLAGS=-DREADLINE -I/usr/local/include
-#	LIBS=-L/usr/local/lib -lreadline -lhistory -ltermlib
+# For GNU readline support you need to add - tested, builds on Kali 1.1.0
+	CFLAGS=-DREADLINE -I/usr/local/include
+	LIBS=-L/usr/local/lib -lreadline -lhistory -ltermlib
 #
 
 # uncomment the following 4 lines for Solaris 2.x
